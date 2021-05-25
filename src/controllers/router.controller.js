@@ -26,7 +26,11 @@ const communityDetails = (req, res) => {
     res.render('pages/blog_details')
 }
 
+const courseDetails = (req, res) => {
+    res.render('pages/course_details')
+}
+
 
 module.exports = {
-    home, courses, about, contact, category, community, communityDetails
+    home, courses, about, contact, category, community, communityDetails, courseDetails
 }

@@ -10,6 +10,6 @@ router.get('/contact', routerController.contact)
 router.get('/category', routerController.category)
 router.get('/community', routerController.community)
 router.get('/community/:id', routerController.communityDetails)
-
+router.get('/course/:id', routerController.courseDetails)
 
 module.exports = router

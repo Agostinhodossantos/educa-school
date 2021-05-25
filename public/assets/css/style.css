@@ -4013,6 +4013,11 @@ hr {
     font-size: 18px;
   }
 }
+.widget_title-custom {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .blog_right_sidebar .widget_title {
   font-size: 20px;
   margin-bottom: 40px;
@@ -4023,11 +4028,23 @@ hr {
   padding-top: 15px;
   border-bottom: 1px solid #f0e9ff;
 }
+.btn-top {
+  margin-left: 30px;
+  width: 93%;
+}
 .blog_right_sidebar .single_sidebar_widget {
   background: #fbf9ff;
   padding: 30px;
   margin-bottom: 30px;
 }
+
+.blog_right_sidebar .feature  {
+  background: #fbf9ff;
+  padding-left: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 .blog_right_sidebar .single_sidebar_widget .btn_1 {
   margin-top: 0px;
 }
@@ -4577,6 +4594,7 @@ hr {
 .contact-info .media-body p {
   color: #8a8a8a;
 }
+
 .contact-title {
   font-size: 27px;
   font-weight: 600;
