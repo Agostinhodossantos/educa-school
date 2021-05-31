@@ -30,7 +30,18 @@ const courseDetails = (req, res) => {
     res.render('pages/course_details')
 }
 
+const courseOrderByCategory = (req, res) => {
+    let category = req.params.id
+    res.render('pages/course_orderby_category')
+}
+
+const login = (req, res) => {
+    res.render('pages/login')
+}
+
 
 module.exports = {
-    home, courses, about, contact, category, community, communityDetails, courseDetails
+    home, courses, about, contact, category, community, 
+    communityDetails, courseDetails, courseOrderByCategory,
+    login
 }

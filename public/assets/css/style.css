@@ -2835,7 +2835,7 @@ hr {
   .course-ratting
   i,
 .all-course .single-course .course-caption .course-cap-mid .course-ratting i {
-  color: #fbba42;
+  color: #FFBF00;
   display: inline-block;
   font-size: 12px;
 }
@@ -3031,7 +3031,7 @@ hr {
   margin-bottom: 21px;
 }
 .testimonial-area .testimonial-ratting i {
-  color: #fbba42;
+  color: #FFBF00;
   display: inline-block;
 }
 .testimonial-area .rattiong-caption span {
