@@ -39,9 +39,16 @@ const login = (req, res) => {
     res.render('pages/login')
 }
 
+const search = (req, res) => {
+    let query = req.query.q
+
+    console.log(query)
+    res.render('pages/search_result')
+}
+
 
 module.exports = {
     home, courses, about, contact, category, community, 
     communityDetails, courseDetails, courseOrderByCategory,
-    login
+    login, search
 }

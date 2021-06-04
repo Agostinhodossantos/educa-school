@@ -35,11 +35,12 @@
                     </div>
                     <!-- Header-btn -->
                     <div class="header-search d-none d-lg-block">
-                        <form action="#" class="form-box f-right ">
-                            <input type="text" name="Search" placeholder="Pesquisar cursos">
-                            <div class="search-icon">
+                        <form action="search" id="search_form" method="GET" class="form-box f-right ">
+                            <input type="text" name="q" placeholder="Pesquisar cursos">
+                            <div class="search-icon" onclick="search()">
                                 <i class="fas fa-search special-tag"></i>
                             </div>
+                    
                         </form>
                     </div>
                 </div>
